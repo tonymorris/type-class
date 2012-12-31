@@ -7,3 +7,7 @@ class Semigroupoid (~>) where
     b ~> c
     -> a ~> b
     -> a ~> c
+
+instance Semigroupoid (->) where
+  f . g =
+    \x -> f (g x)

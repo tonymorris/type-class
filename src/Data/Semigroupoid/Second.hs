@@ -10,3 +10,7 @@ class (Semigroupoid (~>), Tensor (~>)) => Second (~>) where
   second ::
     a ~> b
     -> (c :/\ a) ~> (c :/\ b)
+
+instance Second (->) where
+  second f =
+    \(a :/\ c) -> (a :/\ f c)

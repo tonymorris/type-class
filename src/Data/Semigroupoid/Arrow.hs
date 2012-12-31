@@ -12,3 +12,7 @@ class (Category (~>), First (~>), Second (~>), CombineIn (~>), ChooseIn (~>)) =>
   into ::
     (a -> b)
     -> a ~> b
+
+instance Arrow (->) where
+  into f =
+    f

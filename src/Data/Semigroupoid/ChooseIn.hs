@@ -10,3 +10,9 @@ class Semigroupoid (~>) => ChooseIn (~>) where
     a ~> x
     -> b ~> x
     -> (a :\/ b) ~> x
+
+instance ChooseIn (->) where
+  f >+< g =
+    \q -> case q of
+            L a -> f a
+            R b -> g b

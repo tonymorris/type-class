@@ -6,3 +6,7 @@ class Apply f => Applicative f where
   pure ::
     a
     -> f a
+
+instance Applicative ((->) t) where
+  pure a =
+    \_ -> a
