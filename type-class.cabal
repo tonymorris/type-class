@@ -31,4 +31,50 @@ Library
 
   Exposed-Modules:
                     Data.Functor
+                    Data.Functor.Alt
+                    Data.Functor.Applicative
+                    Data.Functor.Apply
+                    Data.Functor.Bind
+                    Data.Functor.BindTrans
+                    Data.Functor.BindTransform
+                    Data.Functor.Comonad
+                    Data.Functor.ComonadHoist
+                    Data.Functor.ComonadTrans
+                    Data.Functor.Contravariant
+                    Data.Functor.Coproduct
+                    Data.Functor.Distributive
+                    Data.Functor.Extend
+                    Data.Functor.ExtendHoist
+                    Data.Functor.ExtendTrans
+                    Data.Functor.Foldable
+                    Data.Functor.Foldable1
+                    Data.Functor.Functor
+                    Data.Functor.Id
+                    Data.Functor.Monad
+                    Data.Functor.MonadAlt
+                    Data.Functor.MonadPlus
+                    Data.Functor.MonadTrans
+                    Data.Functor.MonadTransform
+                    Data.Functor.Plus
+                    Data.Functor.Product
+                    Data.Functor.Traversable
+                    Data.Functor.Traversable1
+                    Data.Semigroupoid
+                    Data.Semigroupoid.Arrow
+                    Data.Semigroupoid.Category
+                    Data.Semigroupoid.ChooseIn
+                    Data.Semigroupoid.ChooseOut
+                    Data.Semigroupoid.CombineIn
+                    Data.Semigroupoid.CombineOut
+                    Data.Semigroupoid.Disjoint
+                    Data.Semigroupoid.First
+                    Data.Semigroupoid.Left
+                    Data.Semigroupoid.Monoid
+                    Data.Semigroupoid.Reducer
+                    Data.Semigroupoid.Right
+                    Data.Semigroupoid.Second
+                    Data.Semigroupoid.Semigroup
+                    Data.Semigroupoid.Semigroupoid
+                    Data.Semigroupoid.Split
+                    Data.Semigroupoid.Tensor
 

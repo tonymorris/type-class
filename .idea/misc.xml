@@ -45,5 +45,6 @@
     <option name="FORCE_UPDATE" value="false" />
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
+  <component name="WebServicesPlugin" addRequiredLibraries="true" />
 </project>
 

@@ -1,5 +1,5 @@
 :set -isrc
-:l src/Data/Functor.hs
+:l src/Data/Functor.hs src/Data/Semigroupoid.hs
 :m + Test.QuickCheck
 :set prompt ">> "
 :set -Wall
